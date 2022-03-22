@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item android:id="@+id/groupCharacters"
+        android:icon="@drawable/ic_group"
+        android:title="Groups"
+        app:showAsAction="ifRoom"
+        />
+
+    <item android:id="@+id/item2"
+        android:title="Sort by Name"
+        app:showAsAction="never">
+
+
+        <menu>
+        <item android:id="@+id/nameasc"
+            android:title="Ascending"/>
+            <item android:id="@+id/namedesc"
+                android:title="Decending"/>
+        </menu>
+
+
+</item>
+
+    <item android:id="@+id/item3"
+        android:title="Sort by No. of Episodes"
+        app:showAsAction="never">
+
+    <menu>
+        <item android:id="@+id/episodeasc"
+            android:title="Ascending"/>
+        <item android:id="@+id/episodedesc"
+            android:title="Decending"/>
+    </menu>
+
+        </item>
+
+
+</menu>
